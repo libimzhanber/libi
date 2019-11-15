@@ -1,0 +1,19 @@
+import jeliot.io.*;
+
+public class Swap {
+    public static void main() {
+        // Attributes
+        int num1;
+        int num2;
+        int num3;
+
+        // Initial assignment
+        num1 = 3;
+        num2 = 7;
+        
+        // Swap algoritham
+        num3 = num1;
+        num1 = num2;
+        num2 = num3;
+    } // main
+} // Swap
