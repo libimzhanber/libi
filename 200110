@@ -1,0 +1,156 @@
+import java.lang.Math.*;
+import jeliot.io.*;
+
+public class MyClass {
+    public static void main() {
+        for (int num = 0; num<5; num++) {
+   int people = Input.readInt();
+   int numbers;
+           if ( people == 8 || people <8) {
+    numbers = 1;
+           System.out.println ("������ ������ ��� ���");
+           }
+           if (people > 8) {
+            numbers = 1 + (Math.round (people/8));
+               System.out.println ("the people come to the maalit is" + numbers);
+}
+}
+    }
+}
+
+
+import jeliot.io.*;
+
+public class Train {
+    //Attributes
+        private String train;
+        private int passengers;
+        private boolean isExp;
+    
+    //Constractors
+    public Train (String train , int passengers , boolean isExp ) {
+        this.train = train;
+        this.passengers = passengers;
+        this.isExp = isExp;
+    }
+    
+    public Train() {
+        this.train = "rishonTelAviv";
+        this.passengers = 200;
+        this.isExp = true;
+    }
+    
+     //Setters&Getters
+     public void setString (String train) {
+         this.train = train;
+     }
+     
+     public double getString() {
+         return this.train;
+     }
+     
+     public void setInt (int passengers) {
+         this.passengers = passengers;
+     }
+     
+     public double getInt () {
+         return this.passengers;
+     }
+     
+     public void setBoolean (boolean isExp) {
+         this.isExp = isExp;
+     }
+     public double getBoolean() {
+         return this.isExp;
+         }
+    
+}
+
+public class Train2 {
+    public static void main() {
+    
+            String train = "rishonTelAviv";
+            int passengers = 100;
+            boolean isExp = true ;
+            Train tra = new Train (train,passengers,isExp);import jeliot.io.*;
+
+public class Train {
+    //Attributes
+        private String train;
+        private int passengers;
+        private boolean isExp;
+    
+    //Constractors
+    public Train (String train , int passengers , boolean isExp ) {
+        this.train = train;
+        this.passengers = passengers;
+        this.isExp = isExp;
+    }
+    
+    public Train() {
+        this.train = "rishonTelAviv";
+        this.passengers = 200;
+        this.isExp = true;
+    }
+    
+     //Setters&Getters
+     public void setString (String train) {
+         this.train = train;
+     }
+     
+     public double getString() {
+         return this.train;
+     }
+     
+     public void setInt (int passengers) {
+         this.passengers = passengers;
+     }
+     
+     public double getInt () {
+         return this.passengers;
+     }
+     
+     public void setBoolean (boolean isExp) {
+         this.isExp = isExp;
+     }
+     public double getBoolean() {
+         return this.isExp;
+         }
+    
+}
+
+public class Train2 {
+    public static void main() {
+    
+            String train = "rishonTelAviv";
+            int passengers = 100;
+            boolean isExp = true ;
+            Train tra = new Train (train,passengers,isExp);
+    }
+}
+
+import jeliot.io.*;
+import java.util.Scanner;
+
+public class Test200110 {
+    public static void main(String [] argv) {
+        int n;
+        Scanner scanner = new Scanner (System.in);
+        
+        n = 0;
+        int i = 2;
+        while (i<=n*3) {
+            System.out.println(i);
+            i++;
+            }
+
+    }
+}
+
+
+    }
+}
+
+
+
+
